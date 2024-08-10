@@ -1,0 +1,47 @@
+.sec {
+  width: 450px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 50px; }
+  .sec .rowA {
+    display: flex;
+    flex-direction: row; }
+    .sec .rowA .int {
+      width: 40%;
+      height: 30px;
+      border: 1px solid silver;
+      outline: none !important;
+      margin-top: 3%;
+      margin-left: 5%; }
+  .sec .rowB {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row; }
+    .sec .rowB .flex-column {
+      width: 40%;
+      height: auto;
+      margin-top: 10%;
+      margin-left: 10%;
+      -ms-flex-direction: column !important;
+      flex-direction: column !important; }
+      .sec .rowB .flex-column button {
+        width: 90%;
+        height: 60px;
+        margin-top: 15px; }
+        .sec .rowB .flex-column button svg {
+          width: 30px;
+          height: 30px; }
+  .sec .results {
+    width: 35%;
+    margin-top: 10px;
+    margin-left: 30%;
+    padding: 5px; }
+    .sec .results h1 {
+      color: aqua;
+      text-align: center; }
+
+.sec {
+  background-color: #808080; }
+
+/*# sourceMappingURL=style.css.map */
